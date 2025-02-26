@@ -30,3 +30,8 @@ perform_arithmetic <- function(number1, number2, operation = "add") {
   }
 }
 
+perform_sqare <- function(number1) {
+  return(
+    perform_arithmetic(number1, 2, "exponent")
+  )
+}
