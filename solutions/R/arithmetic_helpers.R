@@ -22,6 +22,8 @@ perform_arithmetic <- function(number1, number2, operation = "add") {
     return(number1 / number2)
   } else if (operation == "exponent") {
     return(number1^number2)
+  } else if (operation == "root") {
+    return(number1^(1/number2)
   } else {
     return("Invalid operation")
     }
