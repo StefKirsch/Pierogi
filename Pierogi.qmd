@@ -1,10 +1,14 @@
 ---
-title: "Our Notebook"
+title: "Pierogi Notebook"
 format: html
 editor: visual
 bibliography: references.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
 ---
+
+Welcome to *Pierogi 🥟* a **P**roject for **I**ntegration & **E**xperimentation in a **R**epository for **O**pen-source **G**it **I**nteraction.
+
+This is a notebook where we can experiment together, use existing functionality and test new functionality that we added.
 
 Notebooks are great, as they allow us playing around with both code and documentation, and allow other neat things like writing formulas and referencing works [@quarto2025].
 
@@ -31,3 +35,5 @@ sample_numbers <- c(10, 20, 30, 40, 50, NA)
 
 calculate_stats(sample_numbers)
 ```
+
+Starting from here, we can add new functionality!
