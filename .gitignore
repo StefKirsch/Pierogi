@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# quarto output
+*.html
+our_notebook_files

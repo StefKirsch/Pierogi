@@ -1,0 +1,19 @@
+---
+title: "Our Notebook"
+format: html
+editor: visual
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
+---
+
+Notebooks are great, as they allow us playing around with both code and documentation, and allow other neat things like writing formulas and referencing works [@quarto2025].
+
+We can refer to external functions in our notebook as well.
+
+```{r}
+
+source("R/arithmetic_helpers.R")
+
+perform_arithmetic(10, 5, "add")
+perform_arithmetic(10, 5, "subtract")
+```
