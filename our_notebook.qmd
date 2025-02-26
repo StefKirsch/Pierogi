@@ -8,12 +8,26 @@ csl: https://raw.githubusercontent.com/citation-style-language/styles/master/nat
 
 Notebooks are great, as they allow us playing around with both code and documentation, and allow other neat things like writing formulas and referencing works [@quarto2025].
 
-We can refer to external functions in our notebook as well.
+We can refer to external functions in our notebook as well by sourcing files.
 
-```{r}
-
+```{r import dependencies}
 source("R/arithmetic_helpers.R")
+source("R/stats_helpers.R")
+```
 
+These files contain some functions that we can already use:
+
+## Group 1: Arthmetic
+
+```{r perform arithmetic}
 perform_arithmetic(10, 5, "add")
 perform_arithmetic(10, 5, "subtract")
+```
+
+## Group 2: Statistics
+
+```{r statistics function}
+sample_numbers <- c(10, 20, 30, 40, 50, NA)
+
+calculate_stats(sample_numbers)
 ```
