@@ -26,6 +26,7 @@ These files contain some functions that we can already use:
 ```{r perform arithmetic}
 perform_arithmetic(10, 5, "add")
 perform_arithmetic(10, 5, "subtract")
+perform_arithmetic(10, 5, "multiply")
 ```
 
 ## Group 2: Statistics

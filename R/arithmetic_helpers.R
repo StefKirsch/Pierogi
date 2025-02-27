@@ -4,6 +4,8 @@ perform_arithmetic <- function(number1, number2, operation) {
     return(number1 + number2)
   } else if (operation == "subtract") {
     return(number1 - number2)
+  } else if (operation == "multiply") {
+    return(number1 * number2)
   }
 }
 
