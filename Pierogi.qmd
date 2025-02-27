@@ -37,4 +37,10 @@ sample_numbers <- c(10, 20, 30, 40, 50, NA)
 calculate_stats(sample_numbers)
 ```
 
+```{r}
+sample_numbers <- "aaa"
+
+calculate_stats(sample_numbers)
+```
+
 Starting from here, we can add new functionality!
