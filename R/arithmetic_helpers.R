@@ -9,7 +9,3 @@ perform_arithmetic <- function(number1, number2, operation) {
   }
 }
 
-# Calculate results
-perform_arithmetic(10, 5, "add")
-perform_arithmetic(10, 5, "subtract")
-
