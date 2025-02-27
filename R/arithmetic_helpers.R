@@ -13,3 +13,8 @@ perform_arithmetic <- function(number1, number2, operation) {
   }
 }
 
+perform_square <- function(number1) {
+  return(
+    perform_arithmetic(number1, 2, "exponent")
+  )
+}
