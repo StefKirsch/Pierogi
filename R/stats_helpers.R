@@ -1,5 +1,8 @@
 # Simple R script for basic statistics
 calculate_stats <- function(numbers) {
+  if (!is.numeric(numbers)) {
+    stop("Input must be a numeric vector")
+  }
 
   stats <- list(
     mean = mean(numbers, na.rm = TRUE),
