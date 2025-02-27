@@ -8,6 +8,8 @@ perform_arithmetic <- function(number1, number2, operation) {
     return(number1 * number2)
   } else if (operation == "standard") {
     return(0)
+  } else if (operation == "exponent") {
+    return(number1^number2)
   }
 }
 
